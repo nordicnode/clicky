@@ -6,6 +6,8 @@ furniture, furniture attracts cats, and the cats keep earning while you're away.
 
 Built in GameMaker (GML), 1920×1080 UI over 480×270 pixel-art room scenes.
 
+![Clicky's Cat Café running on Linux](docs/img/gameplay.png)
+
 ## Play it (Linux)
 
 Download the AppImage and run it:
