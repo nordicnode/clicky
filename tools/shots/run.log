@@ -1,0 +1,657 @@
+
+***************************************
+ *     GameMaker v2026.1.0.28    *
+***************************************
+Setting scheduler resolution to 1
+Attempting to use high process priority settings
+Set process priority to HIGH_PRIORITY_CLASS
+Set main thread priority to HIGHEST
+Registered with MMCSS 'Games' task
+Set MMCSS thread priority to CRITICAL
+Reading File Z:\home\mikey\Desktop\dev\clicky\Clicky\.gmcache\build-gms2-windows-VM\output\Clicky.win took 2 ms
+DirectX11: Using hardware device
+Collision Event time(microsecs)=2
+Variable_Global_Init()
+PrepareGame()
+Audio_Init()
+Audio group 0 -> Loaded
+Attempting to set gamepadcount to 12
+Game_Prepare()
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Room_Prepare() 
+Finished PrepareGame() 
+Run_Start
+Done g_EffectsManager.Init()
+Done RenderStateManager
+CreateColPairs took 0.000000s 1 usecs for 24 object types obj_col_numb=0 physobjcount=0 resizes 0 final size 0
+Done ObjectLists
+Done Extension_Initialize
+About to startroom
+Total memory used = 52627880 (0x032309a8) bytes 50.19MB
+Free memory = 5161856 (0x004ec380) bytes 4.92MB
+Peak memory used = 52627880 (0x032309a8) bytes 50.19MB
+**********************************.
+Entering main loop.
+**********************************.
+Fullscreen state changed (was: 0, want: 1) - need to recreate swap chain
+###game_end###0
+Attempting to set gamepadcount to 0
+Script_Free called with 1353 and global 25
+Unsetting previous scheduler resolution of 1
+pci id for fd 39: 10de:21c4, driver (null)
+pci id for fd 40: 10de:21c4, driver (null)
+MESA-EGL: warning: pci id for fd 38: 10de:21c4, driver (null)
+pci id for fd 39: 10de:21c4, driver (null)
+pci id for fd 40: 10de:21c4, driver (null)
+MESA-EGL: warning: egl: failed to create dri2 screen
+MESA-EGL: warning: pci id for fd 38: 10de:21c4, driver (null)
+pci id for fd 39: 10de:21c4, driver (null)
+pci id for fd 40: 10de:21c4, driver (null)
+MESA-EGL: warning: egl: failed to create dri2 screen
+MESA-EGL: warning: pci id for fd 38: 10de:21c4, driver (null)
+0024:fixme:process:NtSetInformationProcess ProcessPowerThrottlingState - stub
+0024:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Games",000000000014F2F0): stub
+0024:fixme:avrt:AvSetMmThreadPriority (0000000012345678)->(2) stub
+0024:fixme:dwmapi:DwmEnableMMCSS (32650241) stub
+pci id for fd 50: 10de:21c4, driver (null)
+pci id for fd 51: 10de:21c4, driver (null)
+MESA-EGL: warning: pci id for fd 49: 10de:21c4, driver (null)
+pci id for fd 50: 10de:21c4, driver (null)
+pci id for fd 51: 10de:21c4, driver (null)
+MESA-EGL: warning: egl: failed to create dri2 screen
+MESA-EGL: warning: pci id for fd 49: 10de:21c4, driver (null)
+pci id for fd 50: 10de:21c4, driver (null)
+pci id for fd 51: 10de:21c4, driver (null)
+MESA-EGL: warning: egl: failed to create dri2 screen
+MESA-EGL: warning: pci id for fd 49: 10de:21c4, driver (null)
+0024:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0024:fixme:dxgi:DXGID3D10CreateDevice Ignoring flags 0x20.
+011c:err:d3d:context_choose_pixel_format Trying to locate a compatible pixel format because an exact match failed.
+0024:fixme:dxgi:dxgi_factory_CreateSwapChainForHwnd Ignoring output 000000000073D0D0.
+0024:fixme:dxgi:wined3d_swapchain_desc_from_dxgi Ignoring scaling 0x1.
+0024:fixme:d3d:wined3d_swapchain_init Unimplemented swap effect 0x3.
+011c:fixme:d3d:state_linepattern_w Setting line patterns is not supported in OpenGL core contexts.
+011c:fixme:d3d_shader:print_glsl_info_log Info log received from GLSL shader #3:
+011c:fixme:d3d_shader:print_glsl_info_log     Vertex info
+011c:fixme:d3d_shader:print_glsl_info_log     -----------
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[2].yzw" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[3]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[4]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[5]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[6]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[7]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[8]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[9]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[10]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[11]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[12]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[13]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[14]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[15]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     
+011c:fixme:d3d_shader:print_glsl_info_log     Fragment info
+011c:fixme:d3d_shader:print_glsl_info_log     -------------
+011c:fixme:d3d_shader:print_glsl_info_log     0(29) : warning C7050: "R0.zw" might be used before being initialized
+0024:fixme:d3d:wined3d_swapchain_init Unimplemented swap effect 0x3.
+011c:fixme:d3d_shader:print_glsl_info_log Info log received from GLSL shader #6:
+011c:fixme:d3d_shader:print_glsl_info_log     Vertex info
+011c:fixme:d3d_shader:print_glsl_info_log     -----------
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[2].w" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[3]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[4]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[5]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[6]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[7]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[8]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[9]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[10]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[11]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[12]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[13]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[14]" might be used before being initialized
+011c:fixme:d3d_shader:print_glsl_info_log     0(27) : warning C7050: "vs_out[15]" might be used before being initialized
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dwmapi:DwmSetWindowAttribute (000000000002004E, d, 000000000014F080, 4) stub
+0024:fixme:dwmapi:DwmGetCompositionTimingInfo (000000000002004E 000000000014EE60)
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:dxgi:d3d11_swapchain_present Unimplemented flags 0xc.
+0024:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000014FEE0

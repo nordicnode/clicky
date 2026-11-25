@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_festival",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_festival",
+  "parent":{
+    "name":"Clicky",
+    "path":"Clicky.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

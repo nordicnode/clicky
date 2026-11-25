@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_veil_art",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_veil_art",
+  "parent":{
+    "name":"Veil",
+    "path":"folders/Scripts/Veil.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

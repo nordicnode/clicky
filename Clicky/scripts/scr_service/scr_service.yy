@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_service",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_service",
+  "parent":{
+    "name":"Clicky",
+    "path":"Clicky.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

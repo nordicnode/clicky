@@ -1,0 +1,24 @@
+# Local build output and per-machine state — never published.
+
+# GameMaker build cache (gigabytes of intermediates)
+Clicky/.gmcache/
+Clicky/local_settings.json
+Clicky/*.zip
+
+# Editor / tooling state that is specific to this machine
+Clicky/.serena/
+Clicky/.claude/
+Clicky/.resource_order
+*.resource_order
+
+# Isolated verification prefix (local saves, logs, Wine prefixes)
+.veil-test/
+.freebuff/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS noise
+Thumbs.db
+.DS_Store

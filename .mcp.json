@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "gm-cli": {
+      "type": "stdio",
+      "command": "bash",
+      "args": [
+        "/home/mikey/Desktop/dev/clicky/tools/gm_mcp.sh"
+      ],
+      "env": {}
+    }
+  }
+}
